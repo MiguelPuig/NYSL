@@ -1,0 +1,771 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    margin:0;
+    padding: 0;
+}
+
+header{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    background-image: url(../imagentitulo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: #00264d 5px solid;
+}
+
+.maintitle{
+    font-size: 30px;
+    color:#00264d;
+    font-family: 'graduate', cursive;
+    text-shadow: 1px 2px rgb(46, 46, 46);    
+}
+
+img.logo{
+    width: 80px;
+    height: 80px;
+	animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+		from {
+				transform: rotate(0deg);
+		}
+		to {
+				transform: rotate(359deg);
+		}
+}
+
+.logotitle{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+main{
+    background-image: url(../images/IMG-8158.JPG);
+    margin: 0px;
+    padding: 0px;
+    
+   
+    
+}
+
+nav{
+    margin:0;
+    padding: 0;
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+    vertical-align: top;
+    position:fixed;
+    top:0;
+    z-index:99;
+    background-color: #00264d;
+  
+}    
+
+
+.navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00264d;
+    width:100%;;
+    vertical-align: top;
+    top:0;
+    z-index: 95;
+}
+  
+  
+.navbar li {
+    float: left;
+}
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'graduate', cursive;
+}
+    
+.navbar li a:hover {
+    background-color:steelblue;
+}
+.active {
+    background-color: #4CAF50;
+}
+
+.title2{
+    font-family: 'Graduate', cursive;
+    color:aliceblue;
+    text-align: left;
+    margin-left: 85px;
+    text-shadow: 1px 2px rgb(46, 46, 46);
+    height: 100px; ;
+    padding-top: 30px;   
+}
+
+.containers{
+    display: flex;
+    justify-content:space-around;
+    padding-bottom: 60px;
+}
+
+.container1{
+    display: flex;
+    background-image:url(../soccer_image1.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;
+    border: 1px;   
+}
+.container4{
+    display: flex;
+    background-image:url(../blanconegro4.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;
+    border: 1px;   
+}
+.container5{
+    display: flex;
+    background-image:url(../blanconegro2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;
+    border: 1px;   
+}
+.container6{
+    display: flex;
+    background-image:url(../blanconegro3.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;
+    border: 1px;    
+}
+.info{
+    width:250px;
+    height:372px;
+    background-color: rgba(31, 31,31, 0.9);
+    transition: opacity .25s ease-in-out;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.container1:hover .info{
+    opacity: 1;
+}
+
+.container4:hover .info{
+    opacity: 1;
+}
+
+.container5:hover .info{
+    opacity: 1;
+}
+
+.container6:hover .info{
+    opacity: 1;
+}
+
+.title3{
+    font-size: 24px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 30px;
+    font-family:  'graduate', cursive;
+}
+
+.text3{
+    font-size: 16px;
+    color: aliceblue;
+    text-align: center;
+    margin:auto;
+    margin-top:400px;
+    transition: margin 0.5s;
+    font-family:  'graduate', cursive;
+}
+
+.container1:hover .text3{
+    margin-top:90px;
+}
+
+.container4:hover .text4{
+    margin-top: 40px;
+}
+
+.container5:hover .text4{
+    margin-top: 40px;
+}
+
+.container6:hover .text4{
+    margin-top: 40px;
+}
+
+.container2{
+    display: flex;
+    background-image:url(../soccer_image2.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;   
+}
+
+.container2:hover .info{
+    opacity: 1;
+}
+
+.container2:hover .text3{
+    margin-top:90px;
+}
+
+.container3{
+    display: flex;
+    background-image:url(../soccer_image3.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 250px;
+    height:372px;   
+}
+
+.container3:hover .info{
+    opacity: 1;
+}
+
+.container3:hover .text3{
+    margin-top:90px;
+}
+
+.enlace {
+    color:steelblue;   
+}
+
+.text4{
+    font-size: 14px;
+    color: aliceblue;
+    text-align: justify;
+    margin:auto;
+    margin-top:400px;
+    transition: margin 0.5s;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'graduate', cursive;
+}
+
+.container1:hover .text4{
+    margin-top:40px;
+}
+
+.container2:hover .text4{
+    margin-top:40px;
+}
+
+.container3:hover .text4{
+    margin-top:40px;
+}
+
+.contacto{
+    text-align: center;
+    font-family: 'Graduate', cursive;
+    color: aliceblue;
+}
+
+.contact{
+    padding-bottom: 100px;
+}
+   
+.link2, .link2:visited {
+    background-color: #00264d;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+      
+.link2:hover, .link2:active {
+    background-color: steelblue;
+}
+
+
+.list1{
+    color:aliceblue;
+    text-align: justify;
+    font-family:'graduate', cursive;
+    padding-bottom: 100px;   
+}
+
+.box{
+    display: inline-block;
+    background-color:#00264d ;
+    overflow: scroll;
+    height:500px;
+    width: 1000px;
+    margin-left: 85px;
+    padding: 50px;
+}
+
+.box ul,ol{
+    margin-left: 50px;
+    padding: 20px;
+}   
+
+.ollist1 li{
+    padding-top: 20px;
+}
+
+.box2,.box3,.box4{
+    background-color: #00264d;
+    color: aliceblue;
+    font-family: 'graduate', cursive;
+    padding:20px;
+    text-align: justify;
+    border: 1px solid #00264d;
+    border-radius: 10px;    
+}
+
+tr th,td{
+    padding-right: 20px;
+}
+
+tr th{
+    padding-bottom:20px;
+    text-decoration: underline;   
+}
+
+.box2 tr:nth-child(even){background-color:steelblue}
+.box3 tr:nth-child(even){background-color:steelblue}
+
+form{
+    font-family: 'graduate', cursive;
+    color:white;
+    background-color: #00264d;
+    padding:30px;
+    border: 1px;
+    border-radius: 10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.formulario{
+    padding-bottom: 50px;
+}
+
+form{
+    margin-left: 84px;
+    margin-right: 84px;
+}
+
+input[type=text]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=date]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    width:100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'graduate', cursive;
+}
+
+input[type=submit]:hover {
+    background-color:steelblue;
+}
+ 
+select{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.formp{
+    margin-bottom:14px;
+}
+
+.tables{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom:40px;
+    margin-right:84px;
+    margin-left: 84px;
+}
+
+.tables2{
+    display: flex;
+    justify-content: center;   
+}
+
+.box4 td{
+    border-bottom: 1px dashed aliceblue;
+}
+
+.box4 th{
+    border-bottom: 1px dashed aliceblue;
+}
+
+.box4{
+    text-align: justify;
+}
+
+iframe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 200px; 
+}
+
+.el1{
+    display: flex;
+    align-items: center;
+}
+
+.firstname, .lastname{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.firstname2, .lastname2{
+    display:flex;
+    flex-grow:1;
+    margin-left: 10px;
+}
+
+.lastname1{
+    margin-left: 20px;
+}
+
+.el2{
+    display: flex;
+    align-items: center;
+}
+
+.ct2, .code2{
+    display: flex;
+    flex-grow: 1;
+    margin-left:10px;
+}
+
+.code1{
+    margin-left: 20px;  
+}
+
+.ct1{
+    display: flex; 
+}
+
+.ct, .code{
+    width: 50%;
+    display: flex;
+    align-items: center
+}
+
+.el5{
+    display: flex;
+    align-items: center;
+}
+
+.streetadress2{
+    display: flex;
+    flex-grow: 1;
+    margin-left:10px;
+}
+
+.el3{
+    display:flex;
+    align-items: center;  
+}
+
+.birthdate2{
+    margin-left: 10px;
+    display: flex;
+    flex-grow: 1;   
+}
+
+.gender{
+    display:flex;
+    margin-left: 20px;
+}
+
+.gender2{
+    margin-left:30px;
+}
+
+.birthdate{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.grade{
+    display: flex;
+}
+
+.grade2{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 30px;   
+}
+.grade2  .first, .third, .second, .fourth, .fifth{
+    margin-left:20px;
+}
+.el4{
+    display: flex;
+    align-items: center;
+}
+
+.contactphone2, .contactemail2{
+    display:flex;
+    flex-grow:1;
+    margin-left: 10px;
+}
+
+.contactemail1{
+    margin-left: 20px;
+}
+
+.contactemail, .contactphone{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.el6{
+    display: flex;
+    align-items: center;
+}
+
+.parentguardian2{
+    margin-left: 10px;
+    display: flex;
+    flex-grow:1;
+}
+
+.grade{
+    display: flex;
+    align-items: center;
+}
+
+.school{
+    display: flex;
+    justify-content: space-around;   
+}
+
+.school1, .school2{
+    display: flex;
+    align-items: center; 
+}
+
+.fcschool1, .scschool1{
+    display: flex;
+    margin-left: 20px;
+}
+
+.el4{
+    display: flex;
+    align-items: center;
+}
+
+.position1{
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.position2{
+    display:flex;
+    justify-content: space-around;   
+}
+
+.play{
+    display: flex;
+    justify-content: space-around; 
+}
+
+.text10{
+    width: 120px;
+    margin-left:10px;
+}
+
+.forward, .midfield{
+    display: flex;
+    align-items: center;
+}
+
+.defense, .goalkeeper{
+    display: flex;
+    align-items: center;
+}
+
+fieldset{
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.el10{
+    display: flex;
+    justify-content: center;
+}
+
+.uniform3{
+    display: flex;
+    align-items: center;
+}
+
+.uniform1{
+    display: flex;
+    justify-content: space-around;
+    margin-top:20px;
+}
+
+.jerseysize, .shortsize{
+    display: flex;
+}
+
+.jerseysize1, .jerseysize2, .shortsize1, .shortsize2{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.jerseysize2, .shortsize2{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+
+.youthsmall, .youthmedium, .youthlarge, .small{
+    display: flex;
+    align-items: center;
+}
+
+.pform{
+    text-align: justify;
+}
+
+.box5{
+    background-color: #00264d;
+    color: aliceblue;
+    font-family: 'graduate', cursive;
+    padding:20px;
+    text-align: justify;
+    border: 1px solid #00264d;
+    border-radius: 10px;
+    display: flex; 
+    justify-content: center;      
+}
+
+.gameinformation1{
+    background-color: #00264d;
+    color: aliceblue;
+    font-family: 'graduate', cursive;
+    padding:40px;
+    border: 1px solid #00264d;
+    border-radius: 20px;
+    width: 950px;
+    margin-top: 30px;
+}
+
+.gameinformation{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.gameinformation p{
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.p1{
+    margin-top:20px;
+}
+
+.phem{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.box5 th{
+   border-bottom: 1px solid aliceblue;
+}
+
+.box5 tr:nth-child(even){background-color:steelblue}
+   
+.showdata{
+    text-align: center;
+}
+
+.showdata1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.fgif{
+    margin-left: 30px;
+    height: 120px;
+    width: 150px;
+}
+
+.title4{
+    display: flex;
+    align-items: center;
+    font-family: 'Graduate', cursive;
+    color:aliceblue;
+    text-align: left;
+    text-shadow: 1px 2px rgb(46, 46, 46);
+    height: 100px; ;
+    font-size: 18px;
+}
+
+.gif1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.link3{
+    color: steelblue;
+}

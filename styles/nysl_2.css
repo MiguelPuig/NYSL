@@ -1,0 +1,123 @@
+
+
+body{
+    margin:0;
+    
+}
+header {
+    background-image:url(../design2_image1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 350px; 
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 60px;
+    color:#00264d;
+    top:-70px;
+    
+}
+
+
+.logo{ position: absolute;
+     top: 510px;
+     left: 100px;
+     height: 125px;
+    
+    }
+
+nav{
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    position: absolute;
+     top: 70px;
+     right: 50px;
+     height: 125px;
+}    
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(40, 76, 153);
+    border: 1px solid black;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+  }
+  
+  
+  li:last-child {
+    border-right: none;
+  }
+
+  
+  li a:hover {
+    background-color:black;
+  }
+
+
+
+.active {
+        text-align: center;
+        background-color:green; 
+        color:white;
+        
+}
+
+
+
+section{
+    display:inline-block;
+    vertical-align: top;    
+    margin-top: -15px;
+    margin-left: 325px;
+    
+}
+
+
+h2 {text-align:center;
+    background-color:lightskyblue;
+    font-size: 30px;
+    margin-top: 0;
+    color: #00264d;
+
+}
+
+p{
+    margin-left: 20px;
+    text-align: justify;
+    
+    
+}
+
+div{
+    margin-top: 20px;
+    
+}
+
+.text {
+    width: 700px;
+    
+}
+
+

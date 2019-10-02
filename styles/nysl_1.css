@@ -1,0 +1,105 @@
+
+
+body{
+    margin: 0;
+}
+header {
+    background-image:url(../design2_image1.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin-top: -40px;
+    margin-left: -8px;
+    margin-right: -8px;
+    height: 350px; 
+}
+
+h1 {
+    font-size: 50px;
+    margin-left: 10px;
+    position: relative;
+    font-size: 60px;
+    color:#00264d;
+    
+}
+
+
+.logo{ position: absolute;
+     top: 303px;
+     right: 100px;
+     height: 125px;}
+
+nav{
+    display:inline-block;
+    vertical-align: top;
+    text-align: center;
+    margin-right: 10%;
+}    
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    height: 105px;
+    background-color: #f1f1f1;
+    
+    
+}
+
+li a {
+    display: block;
+    color:black;
+    padding: 8px 50px;
+    text-decoration: none;
+    
+    
+}
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+
+.active {
+        text-align: center;
+        background-color:lightskyblue; 
+        color:black;
+        
+}
+
+
+
+section{
+    display:inline-block;
+    vertical-align: top;    
+    margin-top: -15px;
+}
+
+
+h2 {text-align:center;
+    background-color:lightskyblue;
+    font-size: 30px;
+    margin-top: 0;
+    color: #00264d;
+
+}
+
+p{
+    margin-left: 20px;
+    text-align: justify;
+    
+    
+}
+
+div{
+    margin-top: 20px;
+    
+}
+
+.text {
+    width: 700px;
+    
+}
